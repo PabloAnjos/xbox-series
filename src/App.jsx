@@ -2,6 +2,8 @@ import './App.css'
 import { Header } from './components/Header/Header'
 import imgXbox from './assets/images/xbox.png'
 import imgControleXbox from './assets/images/controle-xbox.png'
+import video from './assets/images/video-desktop.mp4'
+
 
 function App() {
   return (
@@ -27,6 +29,14 @@ function App() {
                         </div>
                         <img src={imgControleXbox} alt="Imagem controle Xbox" />
                   </div>
+        </section>
+
+        {/* SECTION LISTA DE JOGOS */}
+        <section className='lista-de-jogos'>
+                  <video autoPlay loop>
+                        <source src={video}/>
+                        Seu navegador não suporta a tag de vídeo.
+                  </video>
         </section>
     </>
   )

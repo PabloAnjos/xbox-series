@@ -84,3 +84,11 @@ body {
     }
   }
 }
+
+/* SECTION LISTA DE JOGOS */
+
+.lista-de-jogos {
+  video {
+    width: 100%;
+  }
+}
