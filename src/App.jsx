@@ -18,10 +18,13 @@ function App() {
         </section>
 
         {/* SECTION CONTROLE XBOX */}
-        <section className='controle-xbox'>
+        <section className='section-controle-xbox'>
                   <div className='container-controle-xbox'>
-                        <h1>Desempenho aperfeiçoado</h1>
-                        <p>O controle sem fio Xbox traz um design elegante, conforto refinado e compartilhamento instantâneo para um favorito comum.</p>
+                        <div className='content-controle'>
+                            <h1>Desempenho</h1>
+                            <h2>aperfeiçoado</h2>
+                            <p>O controle sem fio Xbox traz um design elegante, conforto refinado e compartilhamento instantâneo para um favorito comum.</p>
+                        </div>
                         <img src={imgControleXbox} alt="Imagem controle Xbox" />
                   </div>
         </section>

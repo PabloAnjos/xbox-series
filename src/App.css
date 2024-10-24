@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -32,11 +33,54 @@ body {
     h2 {
       font-size: 1.5rem;
       font-weight: 700;
-      color: #9BF00B;
+      color: #9bf00b;
       margin-top: 10px;
     }
   }
 }
 
-
 /* SECTION CONTROLE XBOX */
+
+.section-controle-xbox {
+  display: flex;
+  justify-content: center;
+
+  .container-controle-xbox {
+    width: 1216px;
+    height: 539px;
+    display: flex;
+    justify-content: space-between;
+
+    .content-controle {
+      display: flex;
+      flex-direction: column;
+
+      h1 {
+        font-size: 4rem;
+        font-weight: 600;
+        color: #9bf00b;
+      }
+
+      h2 {
+        font-size: 4rem;
+        font-weight: 600;
+        color: #fff;
+      }
+
+      p {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #c0c0c0;
+        max-width: 550px;
+        height: 102px;
+        line-height: 33px;
+        margin-top: 20px;
+      }
+    }
+
+    img {
+      width: 500px;
+      height: 347px;
+    }
+  }
+}
