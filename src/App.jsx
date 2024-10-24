@@ -4,6 +4,7 @@ import imgXbox from './assets/images/xbox.png'
 import imgControleXbox from './assets/images/controle-xbox.png'
 import { Acordeao } from './components/Acordeao/Acordeao'
 import imgListaDeJogos from './assets/images/lista-de-jogos.png'
+import logoXbox from './assets/images/logo-xbox.png'
 
 
 function App() {
@@ -49,6 +50,18 @@ function App() {
                         </div>
                   </div>  
         </section>
+
+        {/* FOOTER */}
+        <footer>
+                <div className='container-footer'>
+                      <img src={logoXbox} alt="Logo Xbox" />
+                      
+                      <div className='content-footer'>
+                          <h5>© Microsoft 2022</h5>
+                          <h6>Todos os direitos reservados</h6>
+                      </div>
+                </div>
+        </footer>
     </>
   )
 }

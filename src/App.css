@@ -122,3 +122,42 @@ body {
     }
   }
 }
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 330px;
+
+  img {
+    width: 146px;
+    height: 44px;
+  }
+
+  .container-footer {
+    width: 1216px;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .content-footer {
+      display: flex;
+      align-items: center;
+      gap: 56px;
+
+      h5 {
+        font-size: 0.7rem;
+        font-weight: 400;
+        color: #777777;
+      }
+
+      h6 {
+        font-size: 0.7rem;
+        font-weight: 400;
+        color: #777777;
+      }
+    }
+  }
+}
