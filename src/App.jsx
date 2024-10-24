@@ -2,7 +2,8 @@ import './App.css'
 import { Header } from './components/Header/Header'
 import imgXbox from './assets/images/xbox.png'
 import imgControleXbox from './assets/images/controle-xbox.png'
-import video from './assets/images/video-desktop.mp4'
+import { Acordeao } from './components/Acordeao/Acordeao'
+import imgListaDeJogos from './assets/images/lista-de-jogos.png'
 
 
 function App() {
@@ -33,10 +34,20 @@ function App() {
 
         {/* SECTION LISTA DE JOGOS */}
         <section className='lista-de-jogos'>
-                  <video autoPlay loop>
-                        <source src={video}/>
-                        Seu navegador não suporta a tag de vídeo.
-                  </video>
+                  <img src={imgListaDeJogos} alt="Imagem Lista de Jogos" />
+        </section>
+
+        {/* SECTION PERGUNTAS FREQUENTES */}
+        <section className='perguntas-frequentes'>
+                  <div className='container-perguntas-frequentes'>
+                        <h1><span>Perguntas</span> frequentes</h1>
+
+                        <div className='acordeao'>
+                              <Acordeao pergunta={"Meus jogos anteriores do Xbox vão funcionar no Xbox Series X?"}/>
+                              <Acordeao pergunta={"O que está incluído no Xbox Series X?"}/>
+                              <Acordeao pergunta={"Como sei se minha TV é compatível com 4K?"}/>
+                        </div>
+                  </div>  
         </section>
     </>
   )

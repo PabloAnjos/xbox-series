@@ -88,7 +88,37 @@ body {
 /* SECTION LISTA DE JOGOS */
 
 .lista-de-jogos {
-  video {
+  img {
     width: 100%;
+  }
+}
+
+/* SECTION PERGUNTAS FREQUENTES */
+
+.perguntas-frequentes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container-perguntas-frequentes {
+    width: 1216px;
+    height: 553px;
+    padding: 48px 32px 48px 32px;
+    margin-top: 100px;
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 600;
+      color: #fff;
+
+      span {
+        color: #9bf00b;
+      }
+    }
+
+    .acordeao {
+      width: 1152px;
+      margin-top: 50px;
+    }
   }
 }
