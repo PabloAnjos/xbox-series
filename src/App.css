@@ -4,6 +4,39 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
+
 body {
-  background-color: #242424;
+  background-color: #0d100c;
 }
+
+/* SECTION XBOX SERIES X */
+
+.section-xbox-series-x {
+  display: flex;
+  justify-content: center;
+
+  .container-xbox-series-x {
+    width: 1216px;
+    height: 1161px;
+    margin-top: 87px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+      font-size: 4.5rem;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #9BF00B;
+      margin-top: 10px;
+    }
+  }
+}
+
+
+/* SECTION CONTROLE XBOX */
